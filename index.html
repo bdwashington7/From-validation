@@ -9,11 +9,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/trustbean.css">
-    <style>
-
-    </style>
 </head>
-
 <body >
     <header class="clearfix">
         <div class="container-fluid">
@@ -63,16 +59,22 @@
                                 <div class="code-zone">
                                     <div class="col-sm-8">
                                              <form action="#" id="validation">
-                                                    <label for="firstName"> First Name:</label> <input type="text" id="firstName" placeholder=" Enter You First Name" required=""> <br>
+                                                    <label for="firstName"> First Name:</label> <input type="text" id="firstName"  onmouseover="firstName()" placeholder=" Enter You First Name" required=""> <br>
                                                       <label for="lastName">  Last Name:</label> <input type="text" id="lastName" placeholder=" Enter Last Name"><br>
-                                                        <label for="password"> First Name:</label> <input type="password" id="password" placeholder=" Enter You password"><br>
-                                                          <label for="emailAddress"> First Name:</label> <input type="email" id="emailAddress" placeholder=" Enter  Your Email Address"> <br>
+                                                        <label for="password"> Password:</label> <input type="password" id="password" placeholder=" Enter You password"><br>
+                                                          <label for="emailAddress"> Email:</label> <input type="email" id="emailAddress" placeholder=" Enter  Your Email Address"> <br>
                                                         <b>Tell Us Your Message</b> <br>
                                                         <textarea name="" id="textArea" cols="30" rows="10"></textarea><br>
                                                         <input type="submit" name="sendEmail" value="Conform Your Message" id="sendEmail">
                                              </form>
                                     </div>
-                                    <div class="col-sm-4"></div>
+                                    <div class="col-sm-4">
+                                        <div class="show-from">
+                                                <span id="name"></span><br>
+                                                <span id="email"></span><br>
+                                                <span id="message"></span><br>
+                                        </div>
+                                    </div>
                                 </div>
                         </div>
                     </div>
